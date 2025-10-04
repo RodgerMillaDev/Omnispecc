@@ -1,0 +1,86 @@
+@media only screen and (max-width:992px) {
+
+    h1{
+    font-size: 3rem;
+    font-family: LxBold;
+}
+h2{
+    font-size: 2.5rem;
+    font-family: LxBold;
+    letter-spacing: 1px;
+}
+h3{
+    font-size: 1.6rem;
+        letter-spacing: -1px;
+
+    font-family: LxBold;
+}
+h4{
+    font-size: 1.3rem;
+    font-family: LxBold;
+}
+p{
+    font-size: .9rem;
+    font-family: Telex;
+}
+.pill1,.pill2,.pill3,.pill4{
+    display: flex;
+    flex-direction: column;
+    margin:  0px 0;
+    justify-content: center;
+    height: fit-content;
+
+    align-items: center;
+}
+.pill1 p,.pill2 p,.pill3 p,.pill4 p{
+  padding: 0px 0px;
+  cursor: pointer;
+  border-radius: 50px;
+  width: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  margin: 10px 0px;
+  transition: .3s ease;
+  background: var(--pri3-color);
+
+}
+
+.exploreWrap{
+   height: 50vh;
+   overflow-y: auto;
+   overflow-x: hidden;
+   margin: 40px 0;
+}
+
+}
+@media (min-width:993px) and (max-width:1440px){
+   h1{
+    font-size: 3rem;
+    font-family: LxBold;
+}
+h2{
+    font-size: 2.5rem;
+    font-family: LxBold;
+    letter-spacing: 1px;
+}
+button{
+    font-size: .9rem;
+}
+h3{
+    font-size: 1.6rem;
+        letter-spacing: -1px;
+
+    font-family: LxBold;
+}
+h4{
+    font-size: 1.3rem;
+    font-family: LxBold;
+}
+p{
+    font-size: .9rem;
+    font-family: Telex;
+}
+
+}

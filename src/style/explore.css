@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+
+
+}
+
+
+:root{
+    --pri1-color:#156070;
+    --pri2-color:#3D94A7;
+    --pri3-color:#3d94a71e;
+    --text1-color:#000000;
+    --text2-color:#0000009c;
+    --sec-color:rgb(255, 181, 44);
+}
+
+
+
+.exploreWrap{
+   height: fit-content;
+   margin: 40px 0;
+}
+.Explore{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 90vw;
+    margin: 0 auto;
+    align-items: center;
+    flex-direction: column;
+}
+.pill1 p,.pill2 p,.pill3 p,.pill4 p{
+  padding: 0px 30px;
+  cursor: pointer;
+  border-radius: 30px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  margin: 0px 10px;
+  transition: .3s ease;
+  background: var(--pri3-color);
+
+}
+.exploreWrap p:hover{
+    background: var(--pri1-color);
+    color: var(--sec-color);
+    scale: .9;
+}
+.pill1,.pill2,.pill3,.pill4{
+    display: flex;
+    flex-direction: row;
+    margin:  20px 0;
+    justify-content: center;
+    align-items: center;
+}
+.Explore h3{
+    color: var(--pri1-color);
+}
+
+.Explore button{
+    width: 200px;
+    height: 60px;
+    border-radius: 50px;
+    border: none;
+    font-family: Telex;
+    cursor: pointer;
+    background: var(--pri1-color);
+    color: aliceblue;
+}

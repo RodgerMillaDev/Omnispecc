@@ -1,0 +1,109 @@
+@media only screen and (max-width:992px) {
+
+    h1{
+    font-size: 3rem;
+    font-family: LxBold;
+}
+h2{
+    font-size: 2.5rem;
+    font-family: LxBold;
+    letter-spacing: 1px;
+}
+h3{
+    font-size: 1.6rem;
+        letter-spacing: -1px;
+
+    font-family: LxBold;
+}
+h4{
+    font-size: 1.3rem;
+    font-family: LxBold;
+}
+p{
+    font-size: .9rem;
+    font-family: Telex;
+}
+.pill1,.pill2,.pill3,.pill4{
+    display: flex;
+    flex-direction: column;
+    margin:  20px 0;
+    justify-content: center;
+    align-items: center;
+}
+.exploreWrap{
+   height: 60vh;
+   margin: 20px 0;
+}
+.authIntro p{
+    width: 90%;
+    text-align: center;
+}
+
+    .authLeft{
+        display: none;
+    }
+    .authRight{
+        width: 95%;
+    }
+    .authLog,.authSign{
+        width: 95%;
+    }
+    .authIntro{
+        justify-content: center;
+        align-items: center;
+    }
+    .authGoogleOpt p{
+       font-size: .85rem; 
+    }
+    .authGoogleOpt span{
+       font-size: .95rem; 
+    }
+
+    .authGoogle p{
+       font-size: .85rem; 
+
+    }
+    .authGoogle span{
+       font-size: .95rem; 
+
+    }
+}
+@media (min-width:993px) and (max-width:1440px){
+   h1{
+    font-size: 3rem;
+    font-family: LxBold;
+}
+h2{
+    font-size: 2.5rem;
+    font-family: LxBold;
+    letter-spacing: 1px;
+}
+button{
+    font-size: .9rem;
+}
+h3{
+    font-size: 1.6rem;
+        letter-spacing: -1px;
+
+    font-family: LxBold;
+}
+h4{
+    font-size: 1.3rem;
+    font-family: LxBold;
+}
+p{
+    font-size: .9rem;
+    font-family: Telex;
+}
+.authIntro{
+    margin-bottom: 10px;
+}
+.authIntro img{
+  width: 50px;
+  margin-bottom: 7px;
+}
+
+.authGoogle{
+    margin-top: 20px;
+}
+}
