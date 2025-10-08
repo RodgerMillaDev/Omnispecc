@@ -4,3 +4,65 @@
 .swal2-html-container{
   font-family: Telex;
 }
+
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --pri1-color:#156070;
+    --pri2-color:#3D94A7;
+    --pri3-color:#3d94a72d;
+    --text1-color:#000000;
+    --text2-color:#0000009c;
+    --sec-color:orange;
+}
+@font-face {
+    font-family: LxBold ;
+    src: url(./media/Lexend/Lexend-Bold.ttf);
+}
+@font-face {
+    font-family: Telex;
+    src: url(./media/Telex/Telex-Regular.ttf);
+}
+@font-face {
+    font-family: LxRegular ;
+    src: url(./media/Lexend/Lexend-Regular.ttf);
+}
+input,textarea,select{
+    border: none;
+    font-family: Telex;
+    padding-left: 10px;
+    background: none;
+    color: var(--text2-color);
+    font-size: .9rem;
+}
+input:focus, textarea:focus,select:focus{
+    outline: none;
+    font-family: Telex;
+}
+
+
+h1{
+    font-size: 5rem;
+    font-family: LxBold;
+}
+h2{
+    font-size: 3rem;
+    font-family: LxBold;
+    letter-spacing: 1px;
+}
+h3{
+    font-size: 2.2rem;
+        letter-spacing: -1px;
+
+    font-family: LxBold;
+}
+h4{
+    font-size: 1.7rem;
+    font-family: LxBold;
+}
+p{
+    font-size: 1rem ;
+    font-family: Telex;
+}

@@ -88,6 +88,56 @@ url("./fonts/icofont.woff") format("woff");
   content: "\ef14";
 }
 
+.icofont-logout:before
+{
+  content: "\ef7c";
+}
+
+.icofont-wechat:before
+{
+  content: "\ed84";
+}
+
+.icofont-files-stack:before
+{
+  content: "\e96e";
+}
+
+.icofont-history:before
+{
+  content: "\ef46";
+}
+
+.icofont-atom:before
+{
+  content: "\eacd";
+}
+
+.icofont-cubes:before
+{
+  content: "\eef8";
+}
+
+.icofont-bell-alt:before
+{
+  content: "\eacf";
+}
+
+.icofont-search-2:before
+{
+  content: "\ed12";
+}
+
+.icofont-search-user:before
+{
+  content: "\ed1a";
+}
+
+.icofont-chat:before
+{
+  content: "\eed5";
+}
+
 [class^="icofont-"].icofont-duotone,
 	[class*=" icofont-"].icofont-duotone
 {
