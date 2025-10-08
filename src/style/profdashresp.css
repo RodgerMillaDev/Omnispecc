@@ -40,6 +40,7 @@ p{
 .sidemMenuWrapper{
         position: absolute;
     z-index: 3;
+    border-radius: 0px;
     transition: .3s ease;
     left: -101%;
     width: 100%;
