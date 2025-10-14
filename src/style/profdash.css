@@ -42,6 +42,10 @@ input:focus, textarea:focus,select:focus{
     outline: none;
     font-family: Telex;
 }
+input::placeholder{
+    color: #000000a1;
+    font-size: .8rem;
+}
 
 
 h1{
@@ -71,9 +75,9 @@ p{
 #profDashWraper{
     width: 100vw;
     height: 100vh;
-    overflow: hidden;
     position: relative;
     display: flex;
+    overflow: hidden;
     flex-direction: row;
     background: aliceblue;
     
@@ -106,8 +110,7 @@ p{
     height: calc(100% - 60px);
      width: 100%;
     border-radius: 15px;
-        background: rgb(255, 255, 255);
-            box-shadow: 0 0 10px rgba(115,82,199,.18)  ;
+   
 
 
 }
@@ -176,7 +179,108 @@ p{
         overflow: hidden;
     border-radius: 0 20px 20px 0;
     box-shadow: 0 0 10px rgba(115,82,199,.18)  ;
-    height: 100vh;
     background: rgb(255, 255, 255);
+        height: 100vh;
+
     background: #0d1822;
+}
+.profActDashBtmSearch{
+    height: 60px;
+    display: flex;
+        background: aliceblue;
+
+    justify-content: center;
+    margin-bottom: 10px;
+    align-items: center;
+
+    width: 100%;
+}
+.profActDashBtmSearchWrap{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    margin: 10px 0;
+    flex-direction: row;
+
+}
+.profActDashBtmSearchCont{
+    width: fit-content;
+    height: 40px;
+    padding: 5px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(115,82,199,.18)  ;
+    background: rgb(255, 255, 255);   
+     overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.profSearchIcon{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: var(--pri1-color);
+    color: aliceblue;
+}
+.profSearchCont{
+    width: 205px;
+    height: 100%;
+    display: none;
+    
+}
+.profSearchCont input{
+  width: 100%;
+  height: 100%;
+}
+.profActDashBtmCategories{
+    width: calc(100% - 210px);
+    margin-left: 10px;
+    overflow: hidden;
+}
+.categoWrap{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    overflow-x: auto;
+    position: relative;
+        white-space: nowrap;
+        scrollbar-width: none;
+    scroll-snap-type: x mandatory;
+    overflow-y: hidden;
+}
+.catBox{
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    margin-right: 15px;
+
+    align-items: center;
+    cursor: pointer;
+    transition: .3s ease;
+
+    justify-content: center;
+    height: 40px;
+    border-radius: 50px;
+  background: rgb(255, 255, 255); 
+  background: var(--pri3-color);
+      padding: 5px 15px;
+}
+.catBox p{
+    color: rgba(0, 0, 0, 0.938);
+        margin: 0 5px;
+        font-size: .8rem !important;
+
+}
+.catIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    color: var(--pri1-color);
 }

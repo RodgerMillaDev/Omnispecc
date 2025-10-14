@@ -138,6 +138,146 @@ url("./fonts/icofont.woff") format("woff");
   content: "\eed5";
 }
 
+.icofont-notification:before
+{
+  content: "\efac";
+}
+
+.icofont-duotone.icofont-notification:before
+{
+  content: "\13d14";
+}
+
+.icofont-duotone.icofont-notification:after
+{
+  content: "\13cf5";
+}
+
+.icofont-ui-text-chat:before
+{
+  content: "\ec86";
+}
+
+.icofont-users-alt-2:before
+{
+  content: "\ed07";
+}
+
+.icofont-ui-home:before
+{
+  content: "\ec5e";
+}
+
+.icofont-wrench:before
+{
+  content: "\e9c4";
+}
+
+.icofont-laptop:before
+{
+  content: "\ea42";
+}
+
+.icofont-leaf:before
+{
+  content: "\ef5e";
+}
+
+.icofont-tree-alt:before
+{
+  content: "\e824";
+}
+
+.icofont-help-robot:before
+{
+  content: "\e9a1";
+}
+
+.icofont-paint-brush:before
+{
+  content: "\e9aa";
+}
+
+.icofont-paw:before
+{
+  content: "\e878";
+}
+
+.icofont-screw-driver:before
+{
+  content: "\e9b3";
+}
+
+.icofont-car:before
+{
+  content: "\ee1f";
+}
+
+.icofont-car-alt-3:before
+{
+  content: "\ee1d";
+}
+
+.icofont-opencart:before
+{
+  content: "\ed58";
+}
+
+.icofont-teacher:before
+{
+  content: "\eaf0";
+}
+
+.icofont-book:before
+{
+  content: "\ead2";
+}
+
+.icofont-shield-alt:before
+{
+  content: "\e81a";
+}
+
+.icofont-shield:before
+{
+  content: "\efe6";
+}
+
+.icofont-baby:before
+{
+  content: "\eba1";
+}
+
+.icofont-baby-trolley:before
+{
+  content: "\eba0";
+}
+
+.icofont-mop:before
+{
+  content: "\ef9f";
+}
+
+.icofont-hammer:before
+{
+  content: "\e9a0";
+}
+
+.icofont-tools-bag:before
+{
+  content: "\e9b5";
+}
+
+.icofont-graduate-alt:before
+{
+  content: "\eadb";
+}
+
+.icofont-certificate-alt-2:before
+{
+  content: "\ead5";
+}
+
 [class^="icofont-"].icofont-duotone,
 	[class*=" icofont-"].icofont-duotone
 {
