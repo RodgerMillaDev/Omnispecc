@@ -4,6 +4,20 @@
 .swal2-html-container{
   font-family: Telex;
 }
+::-webkit-scrollbar {
+    width: 6px;
+  }
+::-webkit-scrollbar-track {
+    border-radius: 6px;
+  }
+::-webkit-scrollbar-thumb {
+    background: var(--pri2-color); 
+    border-radius: 10px;
+  }
+::-webkit-scrollbar-thumb:hover {
+    background: var(--pri2-color); 
+}
+
 
 *{
     padding: 0;
@@ -158,11 +172,11 @@ p{
                 box-shadow: 0 0 10px rgba(115,82,199,.18)  ;
 
     justify-content: center;
-    background: var(--sec2-color);
+    background: var(--pri1-color);
     border-radius: 50%;
-    font-size: 20px;
+    font-size: 19px;
     cursor: pointer;
-    color: var(--pri1-color);
+    color: var(--sec2-color);
     align-items: center;
 
 }
@@ -299,8 +313,91 @@ p{
 .profRender{
     width: 100%;
         border-radius: 15px;
-    box-shadow: 0 0 10px rgba(115,82,199,.18)  ;
-    background: rgb(255, 255, 255);  
+  
     height: calc(100% - 80px);
+        overflow-y: auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+        gap: 7px;
+    
 
+}
+.profCardR{
+    overflow: hidden;
+    height: 280px;
+    display: flex;
+    padding: 4% 0;
+    border-radius: 10px;
+        box-shadow: 0 0 10px rgba(115,82,199,.18)  ;
+    background: rgb(255, 255, 255);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profCardRTop {
+    border-radius: 10px;
+    width: 92%;
+    height: 180px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.profCardRate{
+  position: absolute;
+  z-index: 3;
+  margin: 5px;
+  padding: 7px 10px;
+  background: #2a6572ad;
+  display: flex;
+  flex-direction: row;
+  right: 0;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+}
+.profCardRate .faIcon{
+  color: orange; 
+  width: 14px; 
+  
+}
+.profCardRate span{
+    font-size: .8rem;
+    color: aliceblue;
+    margin-left: 5px;
+}
+.profCardRBtm{
+    width: 92%;
+    height: fit-content;
+    overflow: hidden;
+    
+    margin: 10px auto 0 auto; 
+}
+.profCardRTop img{
+ width: 100%;
+ height: 100%;
+ position: absolute;
+ z-index: 1;
+ object-fit: cover;
+}
+.profCardRBtm button{
+width: 100%;
+height: 35px;
+border: none;
+cursor: pointer;
+margin-top: 10px;
+border-radius: 50px;
+font-family: Telex;
+color: aliceblue;
+background: var(--pri2-color);
+}
+.profCardRBtm span{
+  font-size: .8rem;
+  opacity: .6;
+  font-style: italic;
+}
+.profCardRBtm p{
+  font-size: .9rem;
+
+  color: var(--text1-color);
 }

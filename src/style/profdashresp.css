@@ -51,5 +51,10 @@ p{
 .profActDashtop{
     justify-content: space-between;
 }
+.profRender{
+        gap: 5px;
+        grid-template-columns: repeat(2, 1fr);
+    
 
+}
 }

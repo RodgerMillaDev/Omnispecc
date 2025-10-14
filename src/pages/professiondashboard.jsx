@@ -2,11 +2,14 @@ import Sidemenu from "../components/sidemenu";
 import '../style/profdash.css'
 import '../style/profdashresp.css'
 import '../media/icofont/icofont.css'
+import plumber from "../media/plumber.jpg"
 import '../media/icofont/icofont.min.css'
 import userImg from "../media/user.png"
+import man from "../media/authImg.jpg"
+import man2 from "../media/authImg2.jpg"
 import { useRef } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faBarsStaggered,faSearch } from "@fortawesome/free-solid-svg-icons"
+import { faBarsStaggered,faSearch,faStar } from "@fortawesome/free-solid-svg-icons"
 
 function ProfessionDashboard(){
     const searchWrapIcon = useRef(null)
@@ -185,7 +188,601 @@ function ProfessionDashboard(){
                            
                         </div>
                          <div className="profRender">
-                                
+                            <div className="profCardR">
+                                <div className="profCardRTop">
+                                    <img src={plumber} alt="" />
+                                    <div className="profCardRate">
+                                        <FontAwesomeIcon className="faIcon" icon={faStar} />
+                                        <span>4.3</span>
+                                    </div>
+
+                                </div>
+                                <div className="profCardRBtm">
+                                    <p>Jacky Mwalo</p>
+                                    <span>Plumber</span>
+                                    <div className="profCardRBtmBtn">
+                                        <button>Hire Me</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div className="profCardR">
+                                <div className="profCardRTop">
+                                    <img src={man} alt="" />
+                                           <div className="profCardRate">
+                                        <FontAwesomeIcon className="faIcon" icon={faStar} />
+                                        <span>4.3</span>
+                                    </div>
+
+                                </div>
+                                <div className="profCardRBtm">
+                                    <p>Jacky Mwikali</p>
+                                    <span>Plumber</span>
+                                    <div className="profCardRBtmBtn">
+                                        <button>Hire Me</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div className="profCardR">
+                                <div className="profCardRTop">
+                                    <img src={man2} alt="" />
+                                            <div className="profCardRate">
+                                        <FontAwesomeIcon className="faIcon" icon={faStar} />
+                                        <span>4.3</span>
+                                    </div>
+
+                                </div>
+                                <div className="profCardRBtm">
+                                    <p>Jacky Mwikali</p>
+                                    <span>Plumber</span>
+                                    <div className="profCardRBtmBtn">
+                                        <button>Hire Me</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div className="profCardR">
+                                <div className="profCardRTop">
+                                    <img src={plumber} alt="" />
+                                            <div className="profCardRate">
+                                        <FontAwesomeIcon className="faIcon" icon={faStar} />
+                                        <span>4.3</span>
+                                    </div>
+
+                                </div>
+                                <div className="profCardRBtm">
+                                    <p>Jacky Mwikali</p>
+                                    <span>Plumber</span>
+                                    <div className="profCardRBtmBtn">
+                                        <button>Hire Me</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div className="profCardR">
+                                <div className="profCardRTop">
+                                    <img src={plumber} alt="" />
+                                            <div className="profCardRate">
+                                        <FontAwesomeIcon className="faIcon" icon={faStar} />
+                                        <span>4.3</span>
+                                    </div>
+
+                                </div>
+                                <div className="profCardRBtm">
+                                    <p>Jacky Mwalo</p>
+                                    <span>Plumber</span>
+                                    <div className="profCardRBtmBtn">
+                                        <button>Hire Me</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div className="profCardR">
+                                <div className="profCardRTop">
+                                    <img src={man} alt="" />
+                                            <div className="profCardRate">
+                                        <FontAwesomeIcon className="faIcon" icon={faStar} />
+                                        <span>4.3</span>
+                                    </div>
+
+                                </div>
+                                <div className="profCardRBtm">
+                                    <p>Jacky Mwikali</p>
+                                    <span>Plumber</span>
+                                    <div className="profCardRBtmBtn">
+                                        <button>Hire Me</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div className="profCardR">
+                                <div className="profCardRTop">
+                                    <img src={man2} alt="" />
+                                            <div className="profCardRate">
+                                        <FontAwesomeIcon className="faIcon" icon={faStar} />
+                                        <span>4.3</span>
+                                    </div>
+
+                                </div>
+                                <div className="profCardRBtm">
+                                    <p>Jacky Mwikali</p>
+                                    <span>Plumber</span>
+                                    <div className="profCardRBtmBtn">
+                                        <button>Hire Me</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div className="profCardR">
+                                <div className="profCardRTop">
+                                    <img src={plumber} alt="" />
+                                            <div className="profCardRate">
+                                        <FontAwesomeIcon className="faIcon" icon={faStar} />
+                                        <span>4.3</span>
+                                    </div>
+
+                                </div>
+                                <div className="profCardRBtm">
+                                    <p>Jacky Mwikali</p>
+                                    <span>Plumber</span>
+                                    <div className="profCardRBtmBtn">
+                                        <button>Hire Me</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div className="profCardR">
+                                <div className="profCardRTop">
+                                    <img src={man} alt="" />
+                                           <div className="profCardRate">
+                                        <FontAwesomeIcon className="faIcon" icon={faStar} />
+                                        <span>4.3</span>
+                                    </div>
+
+                                </div>
+                                <div className="profCardRBtm">
+                                    <p>Jacky Mwikali</p>
+                                    <span>Plumber</span>
+                                    <div className="profCardRBtmBtn">
+                                        <button>Hire Me</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div className="profCardR">
+                                <div className="profCardRTop">
+                                    <img src={man2} alt="" />
+                                            <div className="profCardRate">
+                                        <FontAwesomeIcon className="faIcon" icon={faStar} />
+                                        <span>4.3</span>
+                                    </div>
+
+                                </div>
+                                <div className="profCardRBtm">
+                                    <p>Jacky Mwikali</p>
+                                    <span>Plumber</span>
+                                    <div className="profCardRBtmBtn">
+                                        <button>Hire Me</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div className="profCardR">
+                                <div className="profCardRTop">
+                                    <img src={plumber} alt="" />
+                                            <div className="profCardRate">
+                                        <FontAwesomeIcon className="faIcon" icon={faStar} />
+                                        <span>4.3</span>
+                                    </div>
+
+                                </div>
+                                <div className="profCardRBtm">
+                                    <p>Jacky Mwikali</p>
+                                    <span>Plumber</span>
+                                    <div className="profCardRBtmBtn">
+                                        <button>Hire Me</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div className="profCardR">
+                                <div className="profCardRTop">
+                                    <img src={plumber} alt="" />
+                                            <div className="profCardRate">
+                                        <FontAwesomeIcon className="faIcon" icon={faStar} />
+                                        <span>4.3</span>
+                                    </div>
+
+                                </div>
+                                <div className="profCardRBtm">
+                                    <p>Jacky Mwalo</p>
+                                    <span>Plumber</span>
+                                    <div className="profCardRBtmBtn">
+                                        <button>Hire Me</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div className="profCardR">
+                                <div className="profCardRTop">
+                                    <img src={man} alt="" />
+                                            <div className="profCardRate">
+                                        <FontAwesomeIcon className="faIcon" icon={faStar} />
+                                        <span>4.3</span>
+                                    </div>
+
+                                </div>
+                                <div className="profCardRBtm">
+                                    <p>Jacky Mwikali</p>
+                                    <span>Plumber</span>
+                                    <div className="profCardRBtmBtn">
+                                        <button>Hire Me</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div className="profCardR">
+                                <div className="profCardRTop">
+                                    <img src={man2} alt="" />
+                                            <div className="profCardRate">
+                                        <FontAwesomeIcon className="faIcon" icon={faStar} />
+                                        <span>4.3</span>
+                                    </div>
+
+                                </div>
+                                <div className="profCardRBtm">
+                                    <p>Jacky Mwikali</p>
+                                    <span>Plumber</span>
+                                    <div className="profCardRBtmBtn">
+                                        <button>Hire Me</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div className="profCardR">
+                                <div className="profCardRTop">
+                                    <img src={plumber} alt="" />
+                                            <div className="profCardRate">
+                                        <FontAwesomeIcon className="faIcon" icon={faStar} />
+                                        <span>4.3</span>
+                                    </div>
+
+                                </div>
+                                <div className="profCardRBtm">
+                                    <p>Jacky Mwikali</p>
+                                    <span>Plumber</span>
+                                    <div className="profCardRBtmBtn">
+                                        <button>Hire Me</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div className="profCardR">
+                                <div className="profCardRTop">
+                                    <img src={man} alt="" />
+                                           <div className="profCardRate">
+                                        <FontAwesomeIcon className="faIcon" icon={faStar} />
+                                        <span>4.3</span>
+                                    </div>
+
+                                </div>
+                                <div className="profCardRBtm">
+                                    <p>Jacky Mwikali</p>
+                                    <span>Plumber</span>
+                                    <div className="profCardRBtmBtn">
+                                        <button>Hire Me</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div className="profCardR">
+                                <div className="profCardRTop">
+                                    <img src={man2} alt="" />
+                                            <div className="profCardRate">
+                                        <FontAwesomeIcon className="faIcon" icon={faStar} />
+                                        <span>4.3</span>
+                                    </div>
+
+                                </div>
+                                <div className="profCardRBtm">
+                                    <p>Jacky Mwikali</p>
+                                    <span>Plumber</span>
+                                    <div className="profCardRBtmBtn">
+                                        <button>Hire Me</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div className="profCardR">
+                                <div className="profCardRTop">
+                                    <img src={plumber} alt="" />
+                                            <div className="profCardRate">
+                                        <FontAwesomeIcon className="faIcon" icon={faStar} />
+                                        <span>4.3</span>
+                                    </div>
+
+                                </div>
+                                <div className="profCardRBtm">
+                                    <p>Jacky Mwikali</p>
+                                    <span>Plumber</span>
+                                    <div className="profCardRBtmBtn">
+                                        <button>Hire Me</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div className="profCardR">
+                                <div className="profCardRTop">
+                                    <img src={plumber} alt="" />
+                                            <div className="profCardRate">
+                                        <FontAwesomeIcon className="faIcon" icon={faStar} />
+                                        <span>4.3</span>
+                                    </div>
+
+                                </div>
+                                <div className="profCardRBtm">
+                                    <p>Jacky Mwalo</p>
+                                    <span>Plumber</span>
+                                    <div className="profCardRBtmBtn">
+                                        <button>Hire Me</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div className="profCardR">
+                                <div className="profCardRTop">
+                                    <img src={man} alt="" />
+                                            <div className="profCardRate">
+                                        <FontAwesomeIcon className="faIcon" icon={faStar} />
+                                        <span>4.3</span>
+                                    </div>
+
+                                </div>
+                                <div className="profCardRBtm">
+                                    <p>Jacky Mwikali</p>
+                                    <span>Plumber</span>
+                                    <div className="profCardRBtmBtn">
+                                        <button>Hire Me</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div className="profCardR">
+                                <div className="profCardRTop">
+                                    <img src={man2} alt="" />
+                                            <div className="profCardRate">
+                                        <FontAwesomeIcon className="faIcon" icon={faStar} />
+                                        <span>4.3</span>
+                                    </div>
+
+                                </div>
+                                <div className="profCardRBtm">
+                                    <p>Jacky Mwikali</p>
+                                    <span>Plumber</span>
+                                    <div className="profCardRBtmBtn">
+                                        <button>Hire Me</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div className="profCardR">
+                                <div className="profCardRTop">
+                                    <img src={plumber} alt="" />
+                                            <div className="profCardRate">
+                                        <FontAwesomeIcon className="faIcon" icon={faStar} />
+                                        <span>4.3</span>
+                                    </div>
+
+                                </div>
+                                <div className="profCardRBtm">
+                                    <p>Jacky Mwikali</p>
+                                    <span>Plumber</span>
+                                    <div className="profCardRBtmBtn">
+                                        <button>Hire Me</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div className="profCardR">
+                                <div className="profCardRTop">
+                                    <img src={man} alt="" />
+                                           <div className="profCardRate">
+                                        <FontAwesomeIcon className="faIcon" icon={faStar} />
+                                        <span>4.3</span>
+                                    </div>
+
+                                </div>
+                                <div className="profCardRBtm">
+                                    <p>Jacky Mwikali</p>
+                                    <span>Plumber</span>
+                                    <div className="profCardRBtmBtn">
+                                        <button>Hire Me</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div className="profCardR">
+                                <div className="profCardRTop">
+                                    <img src={man2} alt="" />
+                                            <div className="profCardRate">
+                                        <FontAwesomeIcon className="faIcon" icon={faStar} />
+                                        <span>4.3</span>
+                                    </div>
+
+                                </div>
+                                <div className="profCardRBtm">
+                                    <p>Jacky Mwikali</p>
+                                    <span>Plumber</span>
+                                    <div className="profCardRBtmBtn">
+                                        <button>Hire Me</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div className="profCardR">
+                                <div className="profCardRTop">
+                                    <img src={plumber} alt="" />
+                                            <div className="profCardRate">
+                                        <FontAwesomeIcon className="faIcon" icon={faStar} />
+                                        <span>4.3</span>
+                                    </div>
+
+                                </div>
+                                <div className="profCardRBtm">
+                                    <p>Jacky Mwikali</p>
+                                    <span>Plumber</span>
+                                    <div className="profCardRBtmBtn">
+                                        <button>Hire Me</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div className="profCardR">
+                                <div className="profCardRTop">
+                                    <img src={plumber} alt="" />
+                                            <div className="profCardRate">
+                                        <FontAwesomeIcon className="faIcon" icon={faStar} />
+                                        <span>4.3</span>
+                                    </div>
+
+                                </div>
+                                <div className="profCardRBtm">
+                                    <p>Jacky Mwalo</p>
+                                    <span>Plumber</span>
+                                    <div className="profCardRBtmBtn">
+                                        <button>Hire Me</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div className="profCardR">
+                                <div className="profCardRTop">
+                                    <img src={man} alt="" />
+                                            <div className="profCardRate">
+                                        <FontAwesomeIcon className="faIcon" icon={faStar} />
+                                        <span>4.3</span>
+                                    </div>
+
+                                </div>
+                                <div className="profCardRBtm">
+                                    <p>Jacky Mwikali</p>
+                                    <span>Plumber</span>
+                                    <div className="profCardRBtmBtn">
+                                        <button>Hire Me</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div className="profCardR">
+                                <div className="profCardRTop">
+                                    <img src={man2} alt="" />
+                                            <div className="profCardRate">
+                                        <FontAwesomeIcon className="faIcon" icon={faStar} />
+                                        <span>4.3</span>
+                                    </div>
+
+                                </div>
+                                <div className="profCardRBtm">
+                                    <p>Jacky Mwikali</p>
+                                    <span>Plumber</span>
+                                    <div className="profCardRBtmBtn">
+                                        <button>Hire Me</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div className="profCardR">
+                                <div className="profCardRTop">
+                                    <img src={plumber} alt="" />
+                                            <div className="profCardRate">
+                                        <FontAwesomeIcon className="faIcon" icon={faStar} />
+                                        <span>4.3</span>
+                                    </div>
+
+                                </div>
+                                <div className="profCardRBtm">
+                                    <p>Jacky Mwikali</p>
+                                    <span>Plumber</span>
+                                    <div className="profCardRBtmBtn">
+                                        <button>Hire Me</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div className="profCardR">
+                                <div className="profCardRTop">
+                                    <img src={plumber} alt="" />
+                                            <div className="profCardRate">
+                                        <FontAwesomeIcon className="faIcon" icon={faStar} />
+                                        <span>4.3</span>
+                                    </div>
+
+                                </div>
+                                <div className="profCardRBtm">
+                                    <p>Jacky Mwalo</p>
+                                    <span>Plumber</span>
+                                    <div className="profCardRBtmBtn">
+                                        <button>Hire Me</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div className="profCardR">
+                                <div className="profCardRTop">
+                                    <img src={man} alt="" />
+                                            <div className="profCardRate">
+                                        <FontAwesomeIcon className="faIcon" icon={faStar} />
+                                        <span>4.3</span>
+                                    </div>
+
+                                </div>
+                                <div className="profCardRBtm">
+                                    <p>Jacky Mwikali</p>
+                                    <span>Plumber</span>
+                                    <div className="profCardRBtmBtn">
+                                        <button>Hire Me</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div className="profCardR">
+                                <div className="profCardRTop">
+                                    <img src={man2} alt="" />
+                                            <div className="profCardRate">
+                                        <FontAwesomeIcon className="faIcon" icon={faStar} />
+                                        <span>4.3</span>
+                                    </div>
+
+                                </div>
+                                <div className="profCardRBtm">
+                                    <p>Jacky Mwikali</p>
+                                    <span>Plumber</span>
+                                    <div className="profCardRBtmBtn">
+                                        <button>Hire Me</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div className="profCardR">
+                                <div className="profCardRTop">
+                                    <img src={plumber} alt="" />
+                                            <div className="profCardRate">
+                                        <FontAwesomeIcon className="faIcon" icon={faStar} />
+                                        <span>4.3</span>
+                                    </div>
+
+                                </div>
+                                <div className="profCardRBtm">
+                                    <p>Jacky Mwikali</p>
+                                    <span>Plumber</span>
+                                    <div className="profCardRBtmBtn">
+                                        <button>Hire Me</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                          
                             </div>
                           
 
