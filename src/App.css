@@ -41,7 +41,12 @@ input:focus, textarea:focus,select:focus{
     outline: none;
     font-family: Telex;
 }
-
+body{
+      -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+}
 
 h1{
     font-size: 5rem;

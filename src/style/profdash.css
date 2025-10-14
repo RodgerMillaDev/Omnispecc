@@ -8,6 +8,8 @@
 *{
     padding: 0;
     margin: 0;
+      -webkit-tap-highlight-color: transparent;
+
 }
 :root{
     --pri1-color:#156070;
@@ -142,11 +144,11 @@ p{
             box-shadow: 0 0 10px rgba(115,82,199,.18)  ;
 }
 .dashminiProf i{
-    font-size: 25px;
+    font-size: 22px;
     color: var(--pri1-color);
 }
 .dashNotify i{
-    font-size: 25px;
+    font-size: 22px;
     color: var(--pri1-color);
 }
 .profActDashtopLeft{
@@ -212,6 +214,7 @@ p{
     background: rgb(255, 255, 255);   
      overflow: hidden;
     display: flex;
+    transition: .3s ease;
     flex-direction: row;
     align-items: center;
 }
@@ -227,9 +230,9 @@ p{
     color: aliceblue;
 }
 .profSearchCont{
-    width: 205px;
+    width: 0px;
+    transition: .3s ease;
     height: 100%;
-    display: none;
     
 }
 .profSearchCont input{
@@ -237,8 +240,9 @@ p{
   height: 100%;
 }
 .profActDashBtmCategories{
-    width: calc(100% - 210px);
+    width: calc(100% - 50px);
     margin-left: 10px;
+    transition: .3s ease;
     overflow: hidden;
 }
 .categoWrap{
@@ -267,13 +271,21 @@ p{
     justify-content: center;
     height: 40px;
     border-radius: 50px;
-  background: rgb(255, 255, 255); 
   background: var(--pri3-color);
       padding: 5px 15px;
 }
+.catBox:hover{
+    background: var(--pri2-color);
+    color: aliceblue;
+}
+.catBox:hover p,
+.catBox:hover i
+{
+    color: aliceblue;
+}
 .catBox p{
     color: rgba(0, 0, 0, 0.938);
-        margin: 0 5px;
+        margin: 0 10px;
         font-size: .8rem !important;
 
 }
@@ -283,4 +295,12 @@ p{
     align-items: center;
     font-size: 22px;
     color: var(--pri1-color);
+}
+.profRender{
+    width: 100%;
+        border-radius: 15px;
+    box-shadow: 0 0 10px rgba(115,82,199,.18)  ;
+    background: rgb(255, 255, 255);  
+    height: calc(100% - 80px);
+
 }

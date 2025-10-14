@@ -23,7 +23,15 @@ function ProfessionDashboard(){
 
     }
     const openSearch = () =>{
+        categoryWrap.current.style.width="calc(100% - 260px)"
+                searchInputWrap.current.style.width="210px"
 
+
+    }
+    const closeSearch = () =>{
+                        searchInputWrap.current.style.width="0px"
+
+                categoryWrap.current.style.width="calc(100% - 50px)"
     }
     return(
         <div id="profDashWraper">
@@ -72,7 +80,7 @@ function ProfessionDashboard(){
 
                                       </div>
                                 </div>
-                                <div className="profActDashBtmCategories" ref={categoryWrap}>
+                                <div className="profActDashBtmCategories" ref={categoryWrap} onClick={closeSearch}>
                                     <div className="categoWrap">
                                         <div className="catBox">
                                             <div className="catIcon">
@@ -174,8 +182,12 @@ function ProfessionDashboard(){
                                 </div>
 
                             </div>
-                          
+                           
                         </div>
+                         <div className="profRender">
+                                
+                            </div>
+                          
 
                     </div>
                 </div>
