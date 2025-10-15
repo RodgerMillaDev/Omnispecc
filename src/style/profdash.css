@@ -393,12 +393,22 @@ color: aliceblue;
 background: var(--pri2-color);
 }
 .profCardRBtm span{
-  font-size: .8rem;
+  font-size: .8rem;  -webkit-line-clamp: 1; /* Limit to 3 lines */
+
   opacity: .6;
   font-style: italic;
+    text-overflow: ellipsis;
+      overflow: hidden;
+
+
 }
 .profCardRBtm p{
   font-size: .9rem;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1; /* Limit to 3 lines */
 
+
+  overflow: hidden;
+  width: 100%;
   color: var(--text1-color);
 }
