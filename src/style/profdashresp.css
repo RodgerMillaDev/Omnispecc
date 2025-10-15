@@ -39,11 +39,18 @@ p{
 }
 .sidemMenuWrapper{
         position: absolute;
-    z-index: 3;
+    z-index: 10;
     border-radius: 0px;
     transition: .3s ease;
     left: -101%;
     width: 100%;
+}
+.hideSidebar{
+      left: -101%  ;
+
+}
+.showSidebar{
+    left: 0 ;
 }
 .profActDashtopLeft{
     display: flex;

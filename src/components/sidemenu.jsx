@@ -5,9 +5,33 @@ import '../media/icofont/icofont.min.css'
 import userImg from "../media/authImg.jpg"
 
 import "../style/sidemenu.css"
+import useStore from "../store/zustandstore"
+
+
+
 
 
 function Sidemenu(){
+    const closeSidebar = useStore((s)=> s.closeSidebar)
+
+
+    const toProfessions = ()=>{
+        closeSidebar()
+
+
+    }
+
+    const toChatgram = ()=>{
+        closeSidebar()
+
+
+    }
+
+
+
+
+
+
     return(
         <div className="menuWrap">
 
@@ -18,16 +42,16 @@ function Sidemenu(){
                     </div>
                 </div>
                 <div className="menuMid">
-                    <div className="menuLink menuLinkActive">
+                    <div className="menuLink menuLinkActive" onClick={toProfessions}>
                         <div className="menuLinkBack"></div>
                         <div className="menuIcon">
 					<i className="icofont-cubes"></i>
 
 
                         </div>
-                        <p>All</p>
+                        <p>All Professions</p>
                     </div>
-                    <div className="menuLink">
+                    <div className="menuLink" onClick={toChatgram}>
                                                 <div className="menuLinkBack"></div>
 
                         <div className="menuIcon">

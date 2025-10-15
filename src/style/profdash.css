@@ -300,7 +300,7 @@ p{
 .catBox p{
     color: rgba(0, 0, 0, 0.938);
         margin: 0 10px;
-        font-size: .8rem !important;
+        font-size: .9rem;
 
 }
 .catIcon{
@@ -388,6 +388,7 @@ cursor: pointer;
 margin-top: 10px;
 border-radius: 50px;
 font-family: Telex;
+font-size: .9rem;
 color: aliceblue;
 background: var(--pri2-color);
 }

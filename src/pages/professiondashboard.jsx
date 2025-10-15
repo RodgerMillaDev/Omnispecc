@@ -10,6 +10,7 @@ import man2 from "../media/authImg2.jpg"
 import { useRef } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faBarsStaggered,faSearch,faStar } from "@fortawesome/free-solid-svg-icons"
+import useStore from "../store/zustandstore";
 
 function ProfessionDashboard(){
     const searchWrapIcon = useRef(null)
@@ -17,12 +18,16 @@ function ProfessionDashboard(){
     const searchInputWrap= useRef(null)
 
     const sidemMenuWrapper = useRef(null)
+    const open = useStore((s)=> s.sideBarOpen )
+    const openSidebar = useStore((s) => s.openSidebar)
+    const closeSidebar = useStore((s)=> s.closeSidebar)
+
     const showfonNav = () =>{
-        sidemMenuWrapper.current.style.left="0%"
+        openSidebar()
 
     }
     const cnclFonNav = () =>{
-                sidemMenuWrapper.current.style.left="-101%"
+        closeSidebar()
 
     }
     const openSearch = () =>{
@@ -39,7 +44,7 @@ function ProfessionDashboard(){
     return(
         <div id="profDashWraper">
 
-            <div className="sidemMenuWrapper" ref={sidemMenuWrapper}>
+            <div  ref={sidemMenuWrapper} className={`sidemMenuWrapper ${open ? "showSidebar" : "hideSidebar"}`}>
             <Sidemenu/>
 
             </div>
