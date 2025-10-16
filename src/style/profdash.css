@@ -117,18 +117,45 @@ p{
     display: flex;
     justify-content: end;
     align-items: center;
-       
-
-
     
 }
-.profActDashBtm{
-    height: calc(100% - 60px);
+.userDashboard{
+        height: calc(100% - 60px);
+        position: relative;
      width: 100%;
     border-radius: 15px;
+}
+.profActDashBtm{
+    transition: .3s ease;
+    background: aliceblue;
+    position: absolute;
+    right: -105%;
+    height:100%;
+
+     width: 100%;
    
+}
+.userProCont{
+     transition: .3s ease;
+    box-shadow: 0 0 10px rgba(115,82,199,.18)  ;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    border-radius: 15px;
+    overflow: hidden;
+    right: 0%;
+    height:100%;
+     width: 100%;
+}
+.messagesCont{
+     transition: .3s ease;
+    box-shadow: 0 0 10px rgba(115,82,199,.18)  ;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    border-radius: 15px;
+    right:-105%;
+    height:100%;
 
-
+     width: 100%;
 }
 .dashNotify{
     width: 40px;

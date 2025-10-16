@@ -9,6 +9,10 @@
     padding: 0;
     margin: 0;
 }
+body{    font-family: Telex;
+
+
+}
 :root{
     --pri1-color:#156070;
     --pri2-color:#3D94A7;

@@ -1,0 +1,200 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.swal2-actions button{
+  background: var(--pri1-color);
+}
+.swal2-html-container{
+  font-family: Telex;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --pri1-color:#156070;
+    --pri2-color:#3D94A7;
+    --pri3-color:#3d94a72d;
+    --text1-color:#000000;
+    --text2-color:#0000009c;
+    --sec-color:orange;
+}
+@font-face {
+    font-family: LxBold ;
+    src: url(../media/Lexend/Lexend-Bold.ttf);
+}
+@font-face {
+    font-family: Telex;
+    src: url(../media/Telex/Telex-Regular.ttf);
+}
+@font-face {
+    font-family: LxRegular ;
+    src: url(../media/Lexend/Lexend-Regular.ttf);
+}
+input,textarea,select{
+    border: none;
+    font-family: Telex;
+    padding-left: 10px;
+    background: none;
+    color: var(--text2-color);
+    font-size: .9rem;
+}
+input:focus, textarea:focus,select:focus{
+    outline: none;
+    font-family: Telex;
+}
+body{
+      -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+}
+
+h1{
+    font-size: 5rem;
+    font-family: LxBold;
+}
+h2{
+    font-size: 3rem;
+    font-family: LxBold;
+    letter-spacing: 1px;
+}
+h3{
+    font-size: 2.2rem;
+        letter-spacing: -1px;
+
+    font-family: LxBold;
+}
+h4{
+    font-size: 1.7rem;
+    font-family: LxBold;
+}
+p{
+    font-size: 1rem ;
+    font-family: Telex;
+}
+
+.userProfWrap{
+    width: 70%;
+    margin: 0 auto;
+    height: 100%;
+
+}
+.pageTitle{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.pageTitle span{
+ font-size: 1.2rem;
+ color: var(--pri1-color);
+}
+.profImgWrap{
+    height: 200px;
+}
+.profImgAct{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto;
+}
+.profImgAct img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    align-items: center;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.profImgName{
+    width: 50%;
+
+    margin: 0 auto;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.profImgName p{
+    margin: 5px 0;
+}
+.profImgName span{
+    opacity: .5;
+    font-size: .9rem;
+    
+}
+.userProfChange{
+    display:none;
+}
+.userProfChangeImg{
+    bottom: 0;
+    right: 0;
+    width: 30px;
+    cursor: pointer;
+    height: 30px;
+    background: aliceblue;
+    border: 5px solid rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--pri1-color);
+    color: aliceblue;
+    border-radius: 50%;
+    position: absolute;
+}
+.profBtn{
+    height: 50px;
+    margin: 10px 0;
+    width: 100%;
+}
+.profBtn button{
+ width: 100%;
+ background: var(--pri1-color);
+ height: 100%;
+ border: none;
+ cursor: pointer;
+
+ color: aliceblue;
+ font-family: Telex;
+ border-radius: 50px;
+}
+
+.profUserDet{
+    height: calc(100% - 330px);
+    overflow-y: auto;
+    width: 100%;
+}
+.profDiv{
+    width: 98%;
+    height: 50px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-radius: 50px;
+    background: rgb(231, 233, 235);
+}
+.profQ{
+    margin-left: 15px;
+    width: 46%;
+    overflow: hidden;
+}
+.profA{
+    margin-right: 15px;
+    text-align: end;
+}
+.profRed{
+    color: rgb(202, 2, 2);
+    width: 100%;
+}
+.profGreen{
+    color: green;
+}
