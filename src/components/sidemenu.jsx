@@ -13,19 +13,34 @@ import useStore from "../store/zustandstore"
 
 function Sidemenu(){
     const closeSidebar = useStore((s)=> s.closeSidebar)
+    const closeuserProfile = useStore((s)=> s.closeuserProfile)
+    const showProfessions = useStore((s) => s.showProfessions)
+    const hideProfessions = useStore((s)=> s.hideProfessions)
+    const showuserProfile = useStore((s)=> s.showuserProfile)
+    const hIdeChatGram = useStore((s)=> s.hIdeChatGram)
+    const showChatGram = useStore((s)=> s.showChatGram)
 
 
     const toProfessions = ()=>{
+        showProfessions()
+        closeuserProfile()
         closeSidebar()
-
-
     }
 
     const toChatgram = ()=>{
         closeSidebar()
-
-
+        hideProfessions()
+        closeuserProfile()
+        showChatGram()
     }
+
+    const toProfile = ()=>{
+        closeSidebar()
+        hideProfessions()
+        showuserProfile()
+        
+    }
+
 
 
 
@@ -60,14 +75,13 @@ function Sidemenu(){
                         <p>Chatgram</p>
                     </div>
                     <div className="menuLink">
-                                                <div className="menuLinkBack"></div>
-
+                         <div className="menuLinkBack"></div>
                         <div className="menuIcon">
 					<i class="icofont-history"></i>
                         </div>
                         <p>History</p>
                     </div>
-                    <div className="menuLink">
+                    <div className="menuLink" onClick={toProfile}>
                                                 <div className="menuLinkBack"></div>
 
                         <div className="menuIcon">

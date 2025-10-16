@@ -1,0 +1,177 @@
+.swal2-actions button{
+  background: var(--pri1-color);
+}
+.swal2-html-container{
+  font-family: Telex;
+}
+::-webkit-scrollbar {
+    width: 6px;
+  }
+::-webkit-scrollbar-track {
+    border-radius: 6px;
+  }
+::-webkit-scrollbar-thumb {
+    background: var(--pri2-color); 
+    border-radius: 10px;
+  }
+::-webkit-scrollbar-thumb:hover {
+    background: var(--pri2-color); 
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+      -webkit-tap-highlight-color: transparent;
+
+}
+:root{
+    --pri1-color:#156070;
+    --pri2-color:#3D94A7;
+    --pri3-color:#3d94a72d;
+    --text1-color:#000000;
+    --text2-color:#0000009c;
+    --sec-color:orange;
+    --sec2-color:#E8D113;
+}
+@font-face {
+    font-family: LxBold ;
+    src: url(../media/Lexend/Lexend-Bold.ttf);
+}
+@font-face {
+    font-family: Telex;
+    src: url(../media/Telex/Telex-Regular.ttf);
+}
+@font-face {
+    font-family: LxRegular ;
+    src: url(../media/Lexend/Lexend-Regular.ttf);
+}
+input,textarea,select{
+    border: none;
+    font-family: Telex;
+    padding-left: 10px;
+    background: none;
+    color: var(--text2-color);
+    font-size: .9rem;
+}
+input:focus, textarea:focus,select:focus{
+    outline: none;
+    font-family: Telex;
+}
+input::placeholder{
+    color: #000000a1;
+    font-size: .8rem;
+}
+
+
+h1{
+    font-size: 5rem;
+    font-family: LxBold;
+}
+h2{
+    font-size: 3rem;
+    font-family: LxBold;
+    letter-spacing: 1px;
+}
+h3{
+    font-size: 2.2rem;
+        letter-spacing: -1px;
+
+    font-family: LxBold;
+}
+h4{
+    font-size: 1.7rem;
+    font-family: LxBold;
+}
+p{
+    font-size: 1rem ;
+    font-family: Telex;
+}
+.chatGramSearchWrap{
+ width: 98%;
+ margin: 0 auto;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+}
+
+.chatgramSearch{
+    width: 100%;
+    height: 40px;
+    border-radius: 60px;
+       box-shadow: 0 0 10px rgba(115,82,199,.18)  ;
+    background: rgb(255, 255, 255);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    margin-bottom: 10px;
+
+}
+.chatGramList{
+    height: calc(100% - 50px);
+    width: 100%;
+    border-radius: 15px;
+           box-shadow: 0 0 10px rgba(115,82,199,.18)  ;
+    background: rgb(255, 255, 255);
+    overflow: hidden;
+}
+.chatsearchInputicon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--pri1-color);
+    font-size: 20px;
+    margin-left: 10px;
+    background: none;
+    }
+    .chatSearchInputWrap{
+        width: calc(100% - 50px);
+        height: 100%;
+        overflow: hidden;
+    }
+    .chatSearchInputWrap input{
+        width: 100%;
+        height: 100%;
+    }
+    .emptyChat{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+    .emptyChat img{
+        width: 160px;
+        margin-bottom: 10px;
+    }
+    .emptyChat span{
+         font-size: 1.5rem;
+     font-weight: 900;
+
+ color: var(--pri1-color);
+    }
+    .emptyChat p{
+    width: 40%;
+    margin: 5px auto;
+    color: var(--text2-color);
+    text-align: center;
+    }
+    .emptyChat button{
+        margin-top: 20px;
+        padding: 0 70px;
+        cursor: pointer;
+        height: 45px;
+        border: none;
+        background: var(--pri1-color);
+        font-family: Telex;
+        color: aliceblue;
+        border-radius: 50px;
+    }

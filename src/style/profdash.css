@@ -131,9 +131,12 @@ p{
     position: absolute;
     right: -105%;
     height:100%;
-
-     width: 100%;
+    width: 100%;
    
+}
+.profActDashBtmActive{
+        right: 0%;
+
 }
 .userProCont{
      transition: .3s ease;
@@ -142,20 +145,28 @@ p{
     position: absolute;
     border-radius: 15px;
     overflow: hidden;
-    right: 0%;
     height:100%;
      width: 100%;
+     right:-105%;
+}
+.userProContActive{
+    right: 0%;
+
 }
 .messagesCont{
      transition: .3s ease;
-    box-shadow: 0 0 10px rgba(115,82,199,.18)  ;
-    background: rgb(255, 255, 255);
+ 
     position: absolute;
     border-radius: 15px;
-    right:-105%;
     height:100%;
-
+    background: aliceblue;
      width: 100%;
+         right:105%;
+
+}
+.messageContActive{
+    right:0%;
+
 }
 .dashNotify{
     width: 40px;
@@ -225,7 +236,7 @@ p{
     background: rgb(255, 255, 255);
         height: 100vh;
 
-    background: #0d1822;
+    background: #161616;
 }
 .profActDashBtmSearch{
     height: 60px;
@@ -420,22 +431,20 @@ color: aliceblue;
 background: var(--pri2-color);
 }
 .profCardRBtm span{
-  font-size: .8rem;  -webkit-line-clamp: 1; /* Limit to 3 lines */
+  font-size: .8rem;  
+  -webkit-line-clamp: 1; /* Limit to 3 lines */
 
   opacity: .6;
   font-style: italic;
     text-overflow: ellipsis;
       overflow: hidden;
-
-
 }
 .profCardRBtm p{
   font-size: .9rem;
   text-overflow: ellipsis;
   -webkit-line-clamp: 1; /* Limit to 3 lines */
-
-
   overflow: hidden;
   width: 100%;
   color: var(--text1-color);
 }
+

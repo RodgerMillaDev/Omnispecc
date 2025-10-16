@@ -1,0 +1,41 @@
+@media only screen and (max-width:992px){
+    
+        h1{
+    font-size: 3rem;
+    font-family: LxBold;
+}
+h2{
+    font-size: 2.5rem;
+    font-family: LxBold;
+    letter-spacing: 1px;
+}
+h3{
+    font-size: 1.6rem;
+        letter-spacing: -1px;
+
+    font-family: LxBold;
+}
+h4{
+    font-size: 1.3rem;
+    font-family: LxBold;
+}
+p{
+    font-size: .9rem;
+    font-family: Telex;
+}
+.emptyChat p{
+    width: 80%;
+}
+    
+    .emptyChat button{
+        margin-top: 20px;
+        padding: 0 70px;
+        cursor: pointer;
+        height: 45px;
+        border: none;
+        background: var(--pri1-color);
+        font-family: Telex;
+        color: aliceblue;
+        border-radius: 50px;
+    }
+}
