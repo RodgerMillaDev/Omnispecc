@@ -22,9 +22,11 @@ function Sidemenu(){
 
 
     const toProfessions = ()=>{
-        showProfessions()
         closeuserProfile()
         closeSidebar()
+        hIdeChatGram()
+        showProfessions()
+
     }
 
     const toChatgram = ()=>{
@@ -37,7 +39,9 @@ function Sidemenu(){
     const toProfile = ()=>{
         closeSidebar()
         hideProfessions()
+        hIdeChatGram()
         showuserProfile()
+        
         
     }
 
